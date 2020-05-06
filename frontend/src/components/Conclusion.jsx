@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Container }  from 'react-bootstrap'
 import axios          from 'axios'
-import { Link } from 'react-router-dom'
 
 const APIURL = 'http://localhost:8080'
 
@@ -64,7 +63,7 @@ const Conclusion = () => {
         runtime than Euclidean suggests that Sobel's algorithm may perform better
         in processing large image files in certain cases.
       </p></> : <></>}
-      <Link style={{paddingBottom:'2em'}} to='/github'>Click Here to See our Source Code on Github</Link> 
+      <a style={{paddingBottom:'2em'}} href='https://github.com/johnSMUpark/CS3353_Project_4_Image_Processing'>Click Here to See our Source Code on Github</a> 
   </Container>)
 }
 export default Conclusion

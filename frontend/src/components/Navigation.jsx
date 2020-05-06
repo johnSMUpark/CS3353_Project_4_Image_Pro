@@ -10,7 +10,7 @@ const Navigation = () =>
       <Nav.Link href='procedure'  className='nav-text'>Procedure</Nav.Link>
       <Nav.Link href='results'    className='nav-text'>Results</Nav.Link>
       <Nav.Link href='conclusion' className='nav-text'>Conclusion</Nav.Link>
-      <Nav.Link href='github'     className='nav-text'>Github</Nav.Link>
+      <Nav.Link href='https://github.com/johnSMUpark/CS3353_Project_4_Image_Processing' className='nav-text'>Github</Nav.Link>
     </Nav>
   </Navbar>
   
