@@ -1,15 +1,19 @@
 # CS3353_Project_4_Image_Processing
 Fullstack web application for detecting edges in a jpg image and providing empirical analysis on 2 edge-detection algorithms
 
+You have 2 options to run this app.
+1. Slack me a message saying you want to try out my application on the cloud. Since I have a cloud instance of this app running on Google App Engine, and at your request, I will spool it up and send you the cloud link for you to try out the app.
+2. Clone this repo and run the application locally (Read below)
+
+<br/>
+
 Requirements:
 - Node JS version 13.12.0
 - NPM version 6.14.4
-- Mongo Key to access Image Pro database on Mongo DB Atlas in the cloud
 
 <br/>
 
 To run this project locally,
-- Copy & paste provided Mongo Key in place of `PASTE MONGO KEY HERE` in `MongoKey.js` from the project directory (the Mongo Key should still remain a string value so the single apostrophes signifying the key as a string must remain)
 - `cd` into `frontend` directory and run `npm i`
 - `cd` into `backend` directory and run `npm i`
 - While in `backend` directory, run `npm start`
