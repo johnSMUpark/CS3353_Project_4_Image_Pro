@@ -4,7 +4,7 @@ Fullstack web application for detecting edges of a jpg image and providing empir
 Requirements:
 - Node JS version 13.12.0
 - NPM version 6.14.4
-- Mongo Key to access Image Pro database cluster on Mongo DB Atlas in the cloud
+- Mongo Key to access Image Pro database on Mongo DB Atlas in the cloud
 
 <br/>
 
