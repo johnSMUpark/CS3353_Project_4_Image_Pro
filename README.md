@@ -9,7 +9,7 @@ Requirements:
 <br/>
 
 To run this project locally,
-- copy & paste provided Mongo Key in place of `PASTE MONGO KEY HERE` in `MongoKey.js` from the project directory
+- copy & paste provided Mongo Key in place of `PASTE MONGO KEY HERE` in `MongoKey.js` from the project directory (The Mongo Key should still be a string value so the single apostrophes signifying the key value as a string must remain)
 - `cd` into `frontend` directory and run `npm i`
 - `cd` into `backend` directory and run `npm i`
 - while still in `backend` directory, run `npm start`
