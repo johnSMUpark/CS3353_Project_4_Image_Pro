@@ -1,4 +1,4 @@
-# CS3353_Project_4_Image_Pro
+# CS3353_Project_4_Image_Processing
 Fullstack web application for detecting edges of a jpg image and providing empirical analysis on 2 edge-detection algorithms
 
 Requirements:
