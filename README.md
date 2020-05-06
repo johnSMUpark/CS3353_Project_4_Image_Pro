@@ -1,5 +1,5 @@
 # CS3353_Project_4_Image_Processing
-Fullstack web application for detecting edges of a jpg image and providing empirical analysis on 2 edge-detection algorithms
+Fullstack web application for detecting edges in a jpg image and providing empirical analysis on 2 edge-detection algorithms
 
 Requirements:
 - Node JS version 13.12.0
