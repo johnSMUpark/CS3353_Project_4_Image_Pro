@@ -20,5 +20,11 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: npm start
+MONGO_KEY: ${{ secrets.MONGO_KEY }} 
+    - run: |
+        cd frontend
+        npm i
+        cd ..
+        cd backend
+        npm i
+        npm start
