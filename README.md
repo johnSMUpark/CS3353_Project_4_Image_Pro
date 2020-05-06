@@ -6,6 +6,7 @@ Requirements:
 - NPM version 6.14.4
 - Mongo Key to access Image Pro database cluster on Mongo DB Atlas in the cloud
 
+
 To run this project locally,
 - `cd` into `frontend` directory and run `npm i`
 - `cd` into `backend` directory and run `npm i`
