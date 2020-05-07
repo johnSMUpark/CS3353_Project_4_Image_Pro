@@ -1,7 +1,7 @@
 # CS3353_Project_4_Image_Processing
 Fullstack web application that detects edges in a jpg file and conducts empirical analysis on 2 edge-detection algorithms: Custom (aka Euclidean) & Sobel
 
-Please clone this repo and run the application locally.
+Feel free to clone this repo and run the application locally.
 
 Requirements:
 - Node JS version 13.12.0
