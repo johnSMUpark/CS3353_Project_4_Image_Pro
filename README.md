@@ -12,3 +12,5 @@ To Run
 - `cd` into `backend` directory and run `npm i`
 - While in `backend` directory, run `npm start`
 - Fire up a browser and go to `http://localhost:3000/`
+
+<img src="./Screenshots/home.png" width=60%>
