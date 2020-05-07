@@ -13,6 +13,11 @@ Feel free to clone this repo and run the application locally.
 - While in `backend` directory, run `npm start`
 - Fire up a browser and go to `http://localhost:3000/`
 
+Built with: <br/>
+<img src="./Screenshots/react.png" width=9%>
+<img src="./Screenshots/node.png" width=15%>
+<img src="./Screenshots/mongoDB.png" width=20%>
+
 <b>Screenshots</b>
 
 <img src="./Screenshots/home.png" width=60%>
