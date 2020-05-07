@@ -13,7 +13,7 @@ Feel free to clone this repo and run the application locally.
 - While in `backend` directory, run `npm start`
 - Fire up a browser and go to `http://localhost:3000/`
 
-Screenshots
+<b>Screenshots</b>
 
 Home <br/>
 <img src="./Screenshots/home.png" width=60%>
