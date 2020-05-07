@@ -13,4 +13,10 @@ To Run
 - While in `backend` directory, run `npm start`
 - Fire up a browser and go to `http://localhost:3000/`
 
+Screenshots
+
+Home
 <img src="./Screenshots/home.png" width=60%>
+
+Analysis
+<img src="./Screenshots/analysis.png" width=60%>
