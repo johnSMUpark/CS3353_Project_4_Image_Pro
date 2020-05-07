@@ -4,8 +4,8 @@ Fullstack web app that detects edges in a jpg file and conducts empirical analys
 Feel free to clone this repo and run the application locally.
 
 <b>Requirements</b>
-- Node JS version 13.12.0
-- NPM version 6.14.4
+- Node JS version 13.12.0 (latest)
+- NPM version 6.14.4 (latest)
 
 <b>To Run</b>
 - `cd` into `frontend` directory and run `npm i`
