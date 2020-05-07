@@ -26,7 +26,7 @@ const process = (rgba, w, h) => {
   
   let result = Array.from(rgba.slice())     // clone & turn Uint8ClampedArray to Array
 
-  const contrast = (kernel, x, y) => {      // calculate contrast constant
+  const convolve = (kernel, x, y) => {      // calculate contrast constant
     let total = 0
     for(let j = 0; j < 3; ++j)
       for(let i = 0; i < 3; ++i)
@@ -42,8 +42,8 @@ const process = (rgba, w, h) => {
 
   for (let y = 0; y < h; ++y) {
     for (let x = 0; x < w; ++x) {
-      let pixelX = contrast(kernelX, x, y)
-      let pixelY = contrast(kernelY, x, y)
+      let pixelX = convolve(kernelX, x, y)
+      let pixelY = convolve(kernelY, x, y)
       Math.sqrt(pixelX * pixelX + pixelY * pixelY) > 100? // treshold = 1000
         edit(x, y, 255)                     // edge: white
         : edit(x, y, 0)                     // non-edge: black

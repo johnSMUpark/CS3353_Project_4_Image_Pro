@@ -113,7 +113,7 @@ const Home = () => {
         <div style={{textAlign:'center'}}>
           <Row>
             <Col><h5 id='text'>Original</h5></Col>
-            <Col><h5 id='text'>Custom</h5></Col>
+            <Col><h5 id='text'>Euclidean</h5></Col>
             <Col><h5 id='text'>Sobel</h5></Col>
           </Row>
           <Row>
@@ -132,7 +132,7 @@ const Home = () => {
               {_optURL? 
                 <>
                   <img src={_optURL} style={{width:'100%'}} alt='optimal'/>
-                  <a href={_optURL} download='custom.jpg'>
+                  <a href={_optURL} download='euclidean.jpg'>
                     <Button className='downloadBtn' size='sm'>Download</Button>
                   </a>
                 </>
@@ -154,7 +154,7 @@ const Home = () => {
             <Col>{_optData?
               <div className='graphBackground'>
                 <Graph receivedData={{
-                  name: 'Custom',
+                  name: 'Euclidean',
                   inputData: _optData,
                   color: 'rgba(0, 47, 255)'}}/> 
               </div>

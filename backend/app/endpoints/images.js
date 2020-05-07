@@ -2,7 +2,7 @@ const express   = require('express')
 const router    = express.Router() // express route handler
 const multer    = require('multer')
 const getPixels = require('get-pixels')
-const getOpt    = require('../algorithms/optimized')
+const getEuc    = require('../algorithms/euclidean')
 const getSobel  = require('../algorithms/sobel')
 let MongoClient = require('mongodb').MongoClient
 const MONGO_KEY = require('../../../MongoKey')
@@ -23,9 +23,12 @@ router.post('/', upload.single('image'), (req, res) => {
     let width      = pixels.shape[0]
     let height     = pixels.shape[1]
     let kilopixels = (width * height)/1000
-    let rep        = getRep(kilopixels)
+
+    // dynamically allocate # of reps
+    let rep        = getRep(kilopixels) 
+    
     let sobel      = getSobel(pixels.data, width, height, rep) // run sobel
-    let optimized  = getOpt(pixels.data, width, height, rep) // run optimized
+    let optimized  = getEuc(pixels.data, width, height, rep) // run optimized
     insert(kilopixels, sobel.time, 'sobel')         // update DB
     insert(kilopixels, optimized.time, 'optimized')
     res                                             // send results

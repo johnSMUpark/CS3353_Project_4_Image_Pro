@@ -39,7 +39,7 @@ const Abstract = () =>
       between a pixel and its left and bottom neighboring pixels
       in terms of their RBG values in place of the x, y, z below:
     </p>
-    <img style={{width:'50%'}} src='https://lh3.googleusercontent.com/proxy/4Eoidn0NeqmYZJBV251HKyBQydwSx9yQtGaGWmRwp6SyIofrF-9PpHNZ4edfqKUTmbPMan9_Ro_V1R3zn_ST2Fjm9ZQ57fJ3G75W3LH5IlKawYM' alt='euclidean'/><p/>
+    <img style={{width:'50%'}} src='https://lh3.googleusercontent.com/proxy/0XVEM64Wh2EGhNVgmkiDoXTJbNBOotN8ahf1gfcLlSqcNFZ82PP6djnggC_Qux592t9L6F355b1ayqMY06VB3lPvqkiGdCI-r8QDrEAFJu16Las' alt='euclidean'/><p/>
      <p>
       If a distance above a specified threshold is detected from either of 
       its neighbors, the pixel is classified as an edge.

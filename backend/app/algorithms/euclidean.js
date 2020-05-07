@@ -1,4 +1,4 @@
-const optimized = (orig, w, h, rep) => {
+const euclidean = (orig, w, h, rep) => {
   let start = Date.now()               // start time
 
   for(let i = 0; i < rep; ++i)         // repeat process
@@ -7,7 +7,7 @@ const optimized = (orig, w, h, rep) => {
   let time = round((Date.now() - start)/rep)  // end time
   return { pixels, time }
 }
-module.exports = optimized
+module.exports = euclidean
 
 round = n => Math.ceil(n*100)/100
 
@@ -49,10 +49,10 @@ const process = (result, orig, w, h) => {
       difBB = belowB - currB
       difBG = belowG - currG
 
-      dLeft  = Math.sqrt(difLR * difLR + difLB * difLB + difLG * difLG)
-      dBelow = Math.sqrt(difBR * difBR + difBB * difBB + difBG * difBG)
+      dLeft  = difLR * difLR + difLB * difLB + difLG * difLG
+      dBelow = difBR * difBR + difBB * difBB + difBG * difBG
 
-      dLeft > 23 || dBelow > 23 ? 
+      dLeft > 529 || dBelow > 529 ? 
         edit(x, y, 255)       // above threshold? white
         : edit(x, y, 0)       // below threshold? black
     }

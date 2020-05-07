@@ -7,7 +7,7 @@ const Help = () =>
     <h5>ImagePro</h5>
     <ul>
       <li>Detects edges of an image and renders the image black &amp; white consisting of its edges</li>
-      <li>Runs 2 edge-detection algorithms: Euclidean (Custom) &amp; Sobel</li>
+      <li>Runs 2 edge-detection algorithms: Euclidean &amp; Sobel</li>
       <li>Provides empirical analysis on the agorithms' runtime performance and how one fares against the other</li>
     </ul>
     <h5>Notice</h5>
