@@ -15,8 +15,8 @@ To Run
 
 Screenshots
 
-Home
+Home <br/>
 <img src="./Screenshots/home.png" width=60%>
 
-Analysis
+Analysis <br/>
 <img src="./Screenshots/analysis.png" width=60%>
